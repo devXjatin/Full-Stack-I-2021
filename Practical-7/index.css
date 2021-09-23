@@ -1,0 +1,64 @@
+#header{
+    background-color: grey;
+        text-align: center;
+        padding: 20px;
+        border-radius: 6px;
+        font-size:30px;
+        font-weight: 400;
+        color: white;
+        letter-spacing: 2px;
+       
+}
+
+#banner{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+    margin-top: 6px;
+    border-radius: 6px;
+    letter-spacing: 3px;
+}
+
+#section-1 h2, #section-3 h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.shape{
+    /* border: 2px solid black; */
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    border-radius:50% ;
+    background-color: orange;
+}
+
+.rectangle{
+    height: 250px;
+    width: 200px;
+    border-radius: 0;
+    background-color: brown;
+}
+
+footer h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+
